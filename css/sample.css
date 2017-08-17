@@ -288,6 +288,18 @@ h1 {
     @media (max-width: 550px) {
       #contents #sidebar .pc_sidemenu {
         display: none; } }
+  #contents h2.company_title {
+    margin-bottom: 0; }
+  #contents th {
+    padding-right: 20px;
+    color: #626262;
+    font-size: 14px;
+    font-size: 1.4rem; }
+  #contents td {
+    padding: 20px 0;
+    color: #626262;
+    font-size: 14px;
+    font-size: 1.4rem; }
   @media (min-width: 551px) {
     #contents {
       padding-top: 35px;
@@ -305,18 +317,6 @@ h1 {
           display: inline-block;
           padding-right: 10px;
           margin-bottom: 0; }
-        #contents #main h2.company_title {
-          margin-bottom: 0; }
-        #contents #main th {
-          padding-right: 20px;
-          color: #626262;
-          font-size: 14px;
-          font-size: 1.4rem; }
-        #contents #main td {
-          padding: 20px 0;
-          color: #626262;
-          font-size: 14px;
-          font-size: 1.4rem; }
       #contents #sidebar {
         padding-bottom: 20px; }
         #contents #sidebar .pc_sidemenu h3 {

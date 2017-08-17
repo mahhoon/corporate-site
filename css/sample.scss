@@ -447,6 +447,20 @@ h1{
         }
     }
     
+    h2.company_title {
+        margin-bottom: 0;
+    }
+        th {
+                padding-right: 20px;
+                color:#626262;
+                @include fontsize(14);
+            }
+            td{
+                padding:20px 0;
+                color:#626262;
+                @include fontsize(14);
+            }
+    
     //#contents PC表示
     @media (min-width: 551px){
         padding-top: 35px;
@@ -467,19 +481,6 @@ h1{
                 display: inline-block;
                 padding-right: 10px;
                 margin-bottom: 0;
-            }
-            h2.company_title {
-                margin-bottom: 0;
-            }
-            th {
-                padding-right: 20px;
-                color:#626262;
-                @include fontsize(14);
-            }
-            td{
-                padding:20px 0;
-                color:#626262;
-                @include fontsize(14);
             }
         }
         
